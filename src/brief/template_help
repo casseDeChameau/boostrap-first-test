@@ -1,0 +1,22 @@
+
+
+// -------------------- *   NEWSLETTER   * --------------------------//
+// -------------------- *      SASS      * --------------------------//
+// -------------------- *      GULP      * --------------------------//
+
+
+
+// -------------------- *    BOOSTRAP    * --------------------------//
+1. Bootstrap peut s'installer de différentes façons, la plus simple est celle via CDN comme installée ici, cependant il est possible
+2. Bootstrap s'appelle via les noms de classes : class="text-center"
+2. Bootstrap est basée sur une grille flex, une bonne pratique est de wrapper les zones de travail dans des class="containers":
+    <body>
+        <div class="container">
+            <h1>TITRE</h1>
+            <div class="row">
+                <div class="col-ex-ex "></div>
+            </div>
+        </div>
+    </body>
+3. Bootstrap fonctionnne sur un TEMPLATE DE 12 COLONNES
+4. les nominations des classes sont responsive : col-lg, col-xl, col-sm... représente des résolutions d'écrans (https://getbootstrap.com/docs/5.0/forms/layout/#form-grid)
