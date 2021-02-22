@@ -7,9 +7,10 @@
 
 
 // -------------------- *    BOOSTRAP    * --------------------------//
+0. Doc: https://getbootstrap.com/docs/5.0/getting-started/introduction/
 1. Bootstrap peut s'installer de différentes façons, la plus simple est celle via CDN comme installée ici, cependant il est possible
 2. Bootstrap s'appelle via les noms de classes : class="text-center"
-2. Bootstrap est basée sur une grille flex, une bonne pratique est de wrapper les zones de travail dans des class="containers":
+3. Bootstrap est basée sur une grille flex, une bonne pratique est de wrapper les zones de travail dans des class="containers":
     <body>
         <div class="container">
             <h1>TITRE</h1>
@@ -18,5 +19,6 @@
             </div>
         </div>
     </body>
-3. Bootstrap fonctionnne sur un TEMPLATE DE 12 COLONNES
-4. les nominations des classes sont responsive : col-lg, col-xl, col-sm... représente des résolutions d'écrans (https://getbootstrap.com/docs/5.0/forms/layout/#form-grid)
+4. Bootstrap fonctionnne sur un TEMPLATE DE 12 COLONNES
+5. les nominations des classes sont responsive : col-lg, col-xl, col-sm... représente des résolutions d'écrans (https://getbootstrap.com/docs/5.0/forms/layout/#form-grid)
+6. On peut overwritter du bootstrap (certaine classe sont en !important cependant) en ajoutant une classe et en ayant placé notre feuille css en dessous, * attention * risque de conflit de styles quand overwritting trop général
